@@ -1,6 +1,12 @@
 # laravel
 
 
+
+
+
+wget https://getcomposer.org/download/latest-stable/composer.phar -O composer
+php composer create-project aimeos/aimeos:~2021.10 myshop
+
  composer install
 cp .env.example .env
 Set up .env file
