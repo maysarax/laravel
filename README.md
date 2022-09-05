@@ -4,6 +4,20 @@
 
 
 
+
+
+
+
+
+composer create-project laravel/laravel avored-backend
+cd avored-backend
+composer require avored/framework
+composer require avored/dummy-data
+composer require avored/cash-on-delivery
+composer require avored/pickup
+
+
+
 wget https://getcomposer.org/download/latest-stable/composer.phar -O composer
 php composer create-project aimeos/aimeos:~2021.10 myshop
 
