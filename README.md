@@ -9,6 +9,7 @@
 
 
 
+
 composer create-project laravel/laravel avored-backend
 cd avored-backend
 composer require avored/framework
@@ -29,3 +30,12 @@ Set up .env file
  php artisan migrate:fresh --seed
  php artisan serve
 http://127.0.0.1:8000/
+
+
+composer install
+npm install
+php artisan key:generate
+php artisan migrate
+php artisan db:seed
+gulp
+php artisan serve
