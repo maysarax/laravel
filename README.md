@@ -9,6 +9,26 @@
 
 
 
+composer create-project laravel/laravel   --prefer-dist
+
+composer require laravel/ui
+
+php artisan ui vue
+
+npm install vue-router vue-axios
+
+npm install
+
+npm run watch
+
+php artisan serve
+
+
+
+
+
+
+
 
 composer create-project laravel/laravel avored-backend
 cd avored-backend
